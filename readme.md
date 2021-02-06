@@ -1,5 +1,4 @@
-# Slickdeals - Android - Automation
-
+# Example of Android UI Testing Framework using Python3, Pytest, Pytest-bdd,Appium, Allure, and Selenium Grid
 #### Run locally :
 * Install [Python3](https://www.python.org/downloads/)
 * Install
@@ -33,7 +32,7 @@ $ brew install allure
 ```
 (env) $ pip install -r requirements.txt
 ```
-* get deviceName
+* get deviceName using adb
 ```
 $ adb devices
 List of devices attached
@@ -49,10 +48,7 @@ Validate in browser : The URL '/wd/hub' did not map to a valid resource
 ```
 (env) $ python -m  pytest -p no:randomly  --appium_server_url "http://127.0.0.1:4723/wd/hub"  --video_recorder "True" --step_with_screenshot "True" --path_to_apk "apk/testApp.apk" tests
 ```
-
 #### Quick Start with Emulator:
-
-
 * Instal node
     ```
     $ brew install node  
@@ -61,7 +57,6 @@ Validate in browser : The URL '/wd/hub' did not map to a valid resource
     ```
     $ npm install -g appium
     ```
-
 * Start Emulator from Android Studio
 
 * Run "adb devices" to get emulator name
