@@ -1,22 +1,20 @@
-# Example of Android UI Testing Framework using Python3, Pytest, Pytest-bdd,Appium, Allure, and Selenium Grid
+# Example of Android UI Testing Framework using Python3, Pytest, Pytest-bdd, Appium, Allure, and Selenium Grid.
 #### Run locally :
 * Install [Python3](https://www.python.org/downloads/)
-* Install
-  [Appium- Appium-mac-1.15.1.dmg](https://github.com/appium/appium-desktop/releases/tag/v1.15.1)
-* Make sure that Java and Android Studio installed, adb is reachable
-  from Terminal
-* Make sure that Android studio installed and ANDROID_HOME and JAVA_HOME
-  in path vim .bash_profile
-    ```
-    JAVA_HOME=/usr/bin/java
-    export JAVA_HOME;
-    export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-13.0.1.jdk/Contents/Home;
-    export ANDROID_HOME=/Users/Vladimir.Shkodin/Library/Android/sdk;
-    export PATH=$PATH:$ANDROID_HOME/platform-tools;
-    export PATH=$PATH:$ANDROID_HOME/build-tools;
-    export PATH=$PATH:$ANDROID_HOME/tools;
-    export PATH=$PATH:$ANDROID_HOME/platform-tools/bin;
-    ```
+* Install [Appium- Appium-mac-1.15.1.dmg](https://github.com/appium/appium-desktop/releases/tag/v1.15.1)
+* Install [appium-doctor](https://www.npmjs.com/package/appium-doctor)
+* Java and Android Studio installed, adb is reachable from the Terminal
+* Android studio is installed and ANDROID_HOME and JAVA_HOME in path vim .bash_profile
+```
+JAVA_HOME=/usr/bin/java
+export JAVA_HOME;
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-13.0.1.jdk/Contents/Home;
+export ANDROID_HOME=/Users/Vladimir.Shkodin/Library/Android/sdk;
+export PATH=$PATH:$ANDROID_HOME/platform-tools;
+export PATH=$PATH:$ANDROID_HOME/build-tools;
+export PATH=$PATH:$ANDROID_HOME/tools;
+export PATH=$PATH:$ANDROID_HOME/platform-tools/bin;
+```
 * Install Allure
 ```
 $ brew install allure
@@ -48,7 +46,8 @@ Validate in browser : The URL '/wd/hub' did not map to a valid resource
 ```
 (env) $ python -m  pytest -p no:randomly  --appium_server_url "http://127.0.0.1:4723/wd/hub"  --video_recorder "True" --step_with_screenshot "True" --path_to_apk "apk/testApp.apk" tests
 ```
-#### Quick Start with Emulator:
+
+#### Quick Start with an Emulator:
 * Instal node
     ```
     $ brew install node  
