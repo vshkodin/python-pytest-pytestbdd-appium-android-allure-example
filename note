@@ -1,0 +1,45 @@
+KYV7N15B14001804
+
+appium -p 4723 --nodeconfig nodeconfig-android.json -U KYV7N15B14001804
+
+appium -p 4723 -U KYV7N15B14001804 
+appium -p 4723 -U 988a16424a454f3743  
+5758554638573398 
+"systemPort": "8201"
+
+front page out the index
+
+
+
+/Users/Vladimir.Shkodin/Projects/sd-android-final/sd-android-automated-tests
+apk = /Users/Vladimir.Shkodin/Desktop/MOBILE_1337_1-QA-release.apk
+
+
+python -m  pytest -p no:randomly --alluredir=report --appium_server_url "http://localhost:4444/wd/hub"  --user_email "cod37648@bcaoo.com" --user_password "Slickdealsyi7" --video_recorder "True" --step_with_screenshot "True" --path_to_apk "/Users/Vladimir.Shkodin/Projects/sd-android-automated-tests/QA-release.apk" tests/coverage/test_01_onboarding/test_onboarding.py::test_onboarding
+
+
+
+python -m  pytest -p no:randomly --alluredir=report --appium_server_url "http://localhost:4723/wd/hub"  --user_email "cod37648@bcaoo.com" --user_password "Slickdealsyi7" --video_recorder "True" --step_with_screenshot "True" \--path_to_apk "/Users/Vladimir.Shkodin/Desktop/MOBILE_1337_1-QA-release.apk" tests/coverage/test_01_onboarding/test_onboarding.py::test_onboarding
+
+
+
+wget http://localhost:4723  EXPECT: ERROR 404: Not Found
+
+net.slickdeals.android:id/join_now_button
+net.slickdeals.android:id/continue_with_email_button
+
+
+python -m  pytest -p no:randomly --alluredir=report --appium_server_url "http://localhost:4723/wd/hub"  --user_email "cod37648@bcaoo.com" --user_password "Slickdealsyi7" --video_recorder "True" --step_with_screenshot "True" \--path_to_apk "/Users/Vladimir.Shkodin/Desktop/app-qa-latest.apk" tests
+
+
+192.168.50.212:8888
+
+192.168.50.212:8888
+
+
+appium -p 4728 --nodeconfig config-android.json -U 5758554638573398
+  <string name="testLocatorMid">Center</string>
+    <string name="testLocatorRight">Right</string>
+    <string name="testLocatorButton">down</string>
+
+python -m  pytest -p --appium_server_url "http://localhost:4723/wd/hub"  --user_email "cod37648@bcaoo.com" --user_password "Slickdealsyi7" --video_recorder "True" --step_with_screenshot "True" \--path_to_apk "/Users/Vladimir.Shkodin/Desktop/app-qa-latest.apk" tests
