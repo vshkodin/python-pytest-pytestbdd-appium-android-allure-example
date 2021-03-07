@@ -9,7 +9,7 @@
 JAVA_HOME=/usr/bin/java
 export JAVA_HOME;
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-13.0.1.jdk/Contents/Home;
-export ANDROID_HOME=/Users/Vladimir.Shkodin/Library/Android/sdk;
+export ANDROID_HOME=/Users/Name.LastName/Library/Android/sdk;
 export PATH=$PATH:$ANDROID_HOME/platform-tools;
 export PATH=$PATH:$ANDROID_HOME/build-tools;
 export PATH=$PATH:$ANDROID_HOME/tools;
